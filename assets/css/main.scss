@@ -41,3 +41,38 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* ========== Publications page styling ========== */
+.pub-title {
+  font-size: 0.95em !important;
+  line-height: 1.35 !important;
+  margin-top: 1.2em !important;
+  margin-bottom: 0.3em !important;
+  font-weight: 600;
+}
+
+.pub-number {
+  margin-right: 0.3em;
+  color: inherit;
+}
+
+.pub-authors {
+  font-size: 0.88em !important;
+  line-height: 1.4 !important;
+  margin: 0.2em 0 !important;
+  color: #333;
+}
+
+.pub-venue {
+  font-size: 0.88em !important;
+  line-height: 1.4 !important;
+  margin: 0.2em 0 0.4em 0 !important;
+}
+
+.pub-note {
+  font-size: 0.85em !important;
+  line-height: 1.4 !important;
+  margin: 0.2em 0 0.4em 0 !important;
+  color: #555;
+  font-style: italic;
+}
