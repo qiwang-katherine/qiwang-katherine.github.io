@@ -4,7 +4,7 @@ site_theme               : "default"
 title                    : "Qi Wang"
 title_separator          : "-"
 name                     : &name "Qi Wang"
-description              : &description "Personal website of Qi Wang, Postdoctoral Associate at Boston University. Research on healthcare operations management, healthcare AI, AI and the future of work, and supply chain."
+description              : &description "Personal website of Qi Wang, Postdoctoral Associate at Boston University. Research on healthcare operations management, healthcare AI, AI and workforce."
 url                      : "https://qiwang-katherine.github.io"
 baseurl                  : ""
 repository               : "qiwang-katherine/qiwang-katherine.github.io"
@@ -14,7 +14,7 @@ author:
   avatar           : "profile.png"
   name             : "Qi Wang"
   pronouns         : 
-  bio              : "Healthcare operations management, healthcare AI, AI and the future of work, and supply chain."
+  bio              : "Healthcare operations management, healthcare AI, AI and workforce."
   location         : "Boston, US"
   employer         : "Boston University"
   uri              : 
