@@ -109,3 +109,39 @@
 .talk-list li {
   margin-bottom: 0.3em;
 }
+
+/* ========== Teaching page styling ========== */
+.teaching-section {
+  margin-bottom: 2.5em;
+}
+
+.teaching-role-title {
+  font-size: 1.3em !important;
+  font-weight: 700 !important;
+  margin-top: 1.5em !important;
+  margin-bottom: 0.5em !important;
+  padding-bottom: 0.3em !important;
+  border-bottom: 2px solid #ddd !important;
+  color: #333 !important;
+}
+
+.teaching-item {
+  margin-bottom: 1.2em;
+}
+
+.teaching-course {
+  font-size: 1.0em !important;
+  margin: 0.5em 0 0.3em 0 !important;
+  line-height: 1.4 !important;
+}
+
+.teaching-detail {
+  font-size: 0.9em !important;
+  line-height: 1.5 !important;
+  margin: 0.2em 0 0.5em 1em !important;
+  color: #444;
+}
+
+.teaching-detail li {
+  margin-bottom: 0.2em;
+}
