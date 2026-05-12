@@ -5,9 +5,7 @@ permalink: /interests/
 author_profile: true
 ---
 
-Beyond research, I find a lot of joy in music and dance.
-
-I started learning the **guzheng** (a classical Chinese plucked string instrument) at the age of six, and earned my Level 10 certification from the China Nationalities Orchestra Society at ten. Over the years, I have given several solo performances. The guzheng has been a quiet companion through the years — a way to slow down and find stillness.
+I started learning the **guzheng** (a classical Chinese plucked string instrument) at the age of six, and earned my Level 10 certification from the China Nationalities Orchestra Society at ten. Over the years, I have given several solo performances. The guzheng has remained a quiet presence in my life — a place to find stillness.
  
 
 <figure class="interest-image">
