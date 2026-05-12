@@ -7,14 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Associate at Boston University's Questrom School of Business. Prior to this, I received my PhD through a joint training program between the University of Victoria (Canada) and Xi'an Jiaotong University (China). My research lies in healthcare operations management, healthcare AI, AI and workforce, with a focus on how emerging technologies reshape operational performance, patient outcomes, and workforce.
+I am a Postdoctoral Associate at Boston University's Questrom School of Business. Prior to this, I received my PhD through a joint training program between the University of Victoria (Canada) and Xi'an Jiaotong University (China). My research lies in healthcare operations management, healthcare AI, AI and workforce, with a focus on how emerging technologies reshape operational performance, patient outcomes, and healthcare workforce.
 
 ## Research Interests
 
 - Healthcare operations management
 - Healthcare AI
 - Healthcare IT
-- AI and the future of work
+- AI and workforce
 
 ## Contact
 
