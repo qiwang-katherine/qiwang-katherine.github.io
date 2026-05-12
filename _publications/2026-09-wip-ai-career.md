@@ -5,6 +5,6 @@ permalink: /publication/05-wp-ai-career
 category: working
 pub_number: 5
 authors: '<b>Qi Wang</b>, Anita L. Carson, William Kahn. (2026).'
-note: 'Extended abstract accepted by 2026 INFORMS MSOM Conference.'
+venue_line: 'Extended abstract accepted by 2026 INFORMS MSOM Conference.'
 date: 2026-01-01
 ---
