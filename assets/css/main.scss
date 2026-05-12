@@ -145,3 +145,15 @@
 .teaching-detail li {
   margin-bottom: 0.2em;
 }
+
+.interest-image {
+  max-width: 280px;
+  margin: 1.5em 0;
+}
+
+.interest-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
