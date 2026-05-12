@@ -12,29 +12,25 @@ author_profile: true
 {% include base_path %}
 
 <h2 class="pub-category-title">Publications and Submitted Papers</h2>
-{% for post in site.publications reversed %}
-  {% if post.category == "submitted" %}
-    {% include archive-single.html %}
-  {% endif %}
+{% assign submitted = site.publications | where: "category", "submitted" | sort: "pub_number" %}
+{% for post in submitted %}
+  {% include archive-single.html %}
 {% endfor %}
 
 <h2 class="pub-category-title">Working Papers</h2>
-{% for post in site.publications reversed %}
-  {% if post.category == "working" %}
-    {% include archive-single.html %}
-  {% endif %}
+{% assign working = site.publications | where: "category", "working" | sort: "pub_number" %}
+{% for post in working %}
+  {% include archive-single.html %}
 {% endfor %}
 
 <h2 class="pub-category-title">Works in Progress</h2>
-{% for post in site.publications reversed %}
-  {% if post.category == "wip" %}
-    {% include archive-single.html %}
-  {% endif %}
+{% assign wip = site.publications | where: "category", "wip" | sort: "pub_number" %}
+{% for post in wip %}
+  {% include archive-single.html %}
 {% endfor %}
 
 <h2 class="pub-category-title">Publications in Business Analytics</h2>
-{% for post in site.publications reversed %}
-  {% if post.category == "analytics" %}
-    {% include archive-single.html %}
-  {% endif %}
+{% assign analytics = site.publications | where: "category", "analytics" | sort: "pub_number" %}
+{% for post in analytics %}
+  {% include archive-single.html %}
 {% endfor %}
