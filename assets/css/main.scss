@@ -157,3 +157,16 @@
   border-radius: 6px;
   display: block;
 }
+
+/* ========== Enlarge sidebar profile photo ========== */
+.author__avatar {
+  width: 220px !important;
+  max-width: 220px !important;
+}
+
+.author__avatar img {
+  width: 220px !important;
+  max-width: 220px !important;
+  height: 220px !important;
+  border-radius: 50%;
+}
