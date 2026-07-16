@@ -1,5 +1,5 @@
 ---
-title: "Does AI Reduce Employer Reliance on Master's Degrees? Evidence from Labor Market Flows"
+title: "Generative AI and the Informational Value of Educational Credentials: Evidence from the Master's Margin"
 collection: publications
 permalink: /publication/07-wp-ai-masters
 category: working
