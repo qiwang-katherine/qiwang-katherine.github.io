@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/15-apel-esg
 category: analytics
 pub_number: 15
-authors: 'Qingyu Hu, <b>Qi Wang</b>*. (2025) <i>(*Corresponding author)</i>'.'
+authors: 'Qingyu Hu, <b>Qi Wang</b>*. (2025). <i>(*Corresponding author)</i>'
 venue_line: 'Asian-Pacific Economic Literature.'
 date: 2025-07-01
 ---
