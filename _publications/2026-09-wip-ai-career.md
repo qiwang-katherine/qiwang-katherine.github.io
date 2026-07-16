@@ -1,10 +1,10 @@
 ---
-title: "Beyond Substitution: How Hospital AI Adoption Impacts Worker Career Paths"
+title: "AI Adoption's Impact on Hospital Workforce Retention: Does AI Help or Hurt?"
 collection: publications
-permalink: /publication/05-wp-ai-career
+permalink: /publication/06-wp-ai-career
 category: working
-pub_number: 5
-authors: '<b>Qi Wang</b>, Anita L. Carson, William Kahn. (2026).'
-venue_line: 'Extended abstract accepted by 2026 INFORMS MSOM Conference.'
+pub_number: 6
+authors: '<b>Qi Wang</b>, Anita L. Carson. (2026).'
+venue_line: 'In Preparation for Management Science.<br>Accepted by 2026 MSOM Conference (HBS).'
 date: 2026-01-01
 ---
