@@ -6,6 +6,6 @@ category: submitted
 pub_number: 3
 authors: 'Sarah Zheng, <b>Qi Wang</b>, Anita L. Carson, Jo Ellen Holt. (2025).'
 venue_line: 'Forthcoming at International Journal of Operations & Production Management.'
-note: '🏆 Best Paper (Winner) at the IJOPM Hong Kong Workshop 2026.'
+note: 'Best Paper at the IJOPM Hong Kong Workshop 2026.'
 date: 2025-03-01
 ---
