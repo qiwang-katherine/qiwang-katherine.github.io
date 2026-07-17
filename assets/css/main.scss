@@ -1,5 +1,6 @@
 ---
 ---
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
 
 /*
  * This file controls what is imported from /_sass
@@ -172,3 +173,36 @@
 }
 
 
+/* ========== Global font: Crimson Text ========== */
+body,
+p,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.author__name,
+.author__bio,
+.author__urls,
+.masthead,
+.masthead__menu-item,
+.page__title,
+.page__content,
+.archive__item-title,
+.pub-title,
+.pub-authors,
+.pub-venue,
+.pub-note,
+.pub-category-title,
+.talk-paper-title,
+.talk-list,
+.teaching-role-title,
+.teaching-course,
+.teaching-detail,
+.service-section-title,
+.service-list {
+  font-family: 'Crimson Text', Georgia, 'Times New Roman', serif !important;
+}
