@@ -159,7 +159,7 @@
   display: block;
 }
 
-/* ========== Enlarge sidebar profile photo ========== */
+/* ========== Sidebar profile photo (oval shape) ========== */
 .author__avatar {
   width: 220px !important;
   max-width: 220px !important;
@@ -168,7 +168,8 @@
 .author__avatar img {
   width: 220px !important;
   max-width: 220px !important;
-  height: 220px !important;
+  height: 280px !important;
+  object-fit: cover;
   border-radius: 50%;
 }
 
