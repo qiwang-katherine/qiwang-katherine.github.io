@@ -36,6 +36,7 @@ author_profile: true
 <h2 class="service-section-title">Refereeing Service for Conferences</h2>
 
 <ul class="service-list">
+  <li>Reviewer, <i>Conference on Information Systems and Technology (CIST)</i>, 2026</li>
   <li>Reviewer, <i>MSOM Healthcare Conference</i>, 2025</li>
 </ul>
 
