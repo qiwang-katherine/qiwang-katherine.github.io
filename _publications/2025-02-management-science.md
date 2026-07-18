@@ -5,7 +5,7 @@ permalink: /publication/02-ms-algorithm-adoption
 category: submitted
 pub_number: 2
 authors: '<b>Qi Wang</b>, Jiayi Liu, Anandhi Bharadwaj, Ruba Aljafari, Abhinav Goyal. (2025).'
-venue_line: 'Under revision at Management Science.'
+venue_line: 'Under revision at <span style="color: #2E5A8C;">Management Science</span>.'
 date: 2025-02-01
 link: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6149766'
 ---
