@@ -11,10 +11,6 @@ I am a Postdoctoral Associate at Boston University, Questrom School of Business,
 
 My research examines how artificial intelligence (AI) is transforming work and organizations. Grounded in healthcare, I study how emerging technologies — from health AI to robotic surgery — are reshaping care delivery, workforce dynamics, and health outcomes. I draw on causal inference, machine learning, and LLM-based methods, applied to large-scale administrative and healthcare data, at the intersection of information systems and operations management.
 
-## Contact
-
-Email: [qiwangqw@bu.edu](mailto:qiwangqw@bu.edu)  
-
 {% include base_path %}
 
 <h2 class="pub-category-title">Publications and Submitted Papers</h2>
