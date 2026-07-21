@@ -247,3 +247,12 @@ font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif !important;
 p {
   margin: 0.8em 0 !important;
 }
+
+/* ========== Reduce space between page title and first paragraph ========== */
+.page__title {
+  margin-bottom: 0.4em !important;   /* 之前默认约 1.2em */
+}
+
+.page__content > p:first-of-type {
+  margin-top: 0.3em !important;
+}
