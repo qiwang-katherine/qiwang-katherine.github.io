@@ -9,7 +9,7 @@ redirect_from:
 
 I am a Postdoctoral Associate at Boston University, Questrom School of Business, advised by Prof. [Anita Carson](https://www.bu.edu/questrom/profiles/anita-carson/). I am also grateful to work with Professors [Chris Dellarocas](https://www.bu.edu/questrom/profiles/chrysanthos-dellarocas/), [Patricia Cortes](https://www.bu.edu/questrom/profiles/patricia-cortes/), [William Kahn](https://www.bu.edu/questrom/profiles/william-kahn/), and [Anandhi Bharadwaj](https://goizueta.emory.edu/faculty/profiles/anandhi-bharadwaj) (Emory). I received my PhD through a joint doctoral program between the University of Victoria and Xi'an Jiaotong University.
 
-My research examines how artificial intelligence (AI) is transforming work and organizations. Grounded in healthcare, I study how health AI is reshaping care delivery, workforce dynamics, and health outcomes. I draw on causal inference, machine learning, and LLM-based methods, applied to large-scale administrative and healthcare data, at the intersection of information systems and operations management.
+My research examines how artificial intelligence (AI) is transforming work and organizations. Grounded in healthcare, I study how health AI is reshaping care delivery, workforce dynamics, and health outcomes. I draw on causal inference, machine learning, natural language processing (NLP), and LLM-based methods, applied to large-scale administrative and healthcare data, at the intersection of information systems and operations management.
 
 {% include base_path %}
 
