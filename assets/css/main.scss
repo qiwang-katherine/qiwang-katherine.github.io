@@ -213,3 +213,37 @@ h6,
 .service-list {
 font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif !important;
 }
+
+/* ========== Reduce vertical spacing ========== */
+
+/* Reduce space above category titles (Publications, Working Papers, etc.) */
+.pub-category-title {
+  margin-top: 1.2em !important;     /* 之前是 2em */
+  margin-bottom: 0.4em !important;  /* 之前是 0.5em */
+}
+
+/* Reduce space around pub-title (paper titles) */
+.pub-title {
+  margin-top: 0.8em !important;     /* 之前是 1.2em */
+  margin-bottom: 0.2em !important;  /* 之前是 0.3em */
+}
+
+/* Reduce space around authors line */
+.pub-authors {
+  margin: 0.15em 0 !important;      /* 之前是 0.2em */
+}
+
+/* Reduce space around venue line */
+.pub-venue {
+  margin: 0.15em 0 0.3em 0 !important;   /* 之前是 0.2em 0 0.4em 0 */
+}
+
+/* Reduce space around note (italic notes) */
+.pub-note {
+  margin: 0.15em 0 0.3em 0 !important;   /* 之前是 0.2em 0 0.4em 0 */
+}
+
+/* Reduce paragraph spacing */
+p {
+  margin: 0.8em 0 !important;
+}
