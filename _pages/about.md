@@ -9,15 +9,34 @@ redirect_from:
 
 I am a Postdoctoral Associate at Boston University, Questrom School of Business, advised by Prof. [Anita Carson](https://www.bu.edu/questrom/profiles/anita-carson/). I am also grateful to work with Professors [Chris Dellarocas](https://www.bu.edu/questrom/profiles/chrysanthos-dellarocas/), [Patricia Cortes](https://www.bu.edu/questrom/profiles/patricia-cortes/), [William Kahn](https://www.bu.edu/questrom/profiles/william-kahn/), and [Anandhi Bharadwaj](https://goizueta.emory.edu/faculty/profiles/anandhi-bharadwaj) (Emory). I received my PhD through a joint doctoral program between the University of Victoria (Canada) and Xi'an Jiaotong University (China).
 
-My research lies in healthcare operations management, healthcare AI, AI and workforce, with a focus on how emerging technologies reshape operational performance, patient outcomes, and healthcare workforce.
-
-## Research Interests
-
-- Healthcare operations management
-- Healthcare AI
-- Healthcare IT
-- AI and workforce
+My research examines how artificial intelligence (AI) is transforming work and organizations. Grounded in healthcare, I study how emerging technologies — from health AI to robotic surgery — are reshaping care delivery, workforce dynamics, and health outcomes. I draw on causal inference, machine learning, and LLM-based methods, applied to large-scale administrative and healthcare data, at the intersection of information systems and operations management.
 
 ## Contact
 
 Email: [qiwangqw@bu.edu](mailto:qiwangqw@bu.edu)  
+
+{% include base_path %}
+
+<h2 class="pub-category-title">Publications and Submitted Papers</h2>
+{% assign submitted = site.publications | where: "category", "submitted" | sort: "pub_number" %}
+{% for post in submitted %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2 class="pub-category-title">Working Papers</h2>
+{% assign working = site.publications | where: "category", "working" | sort: "pub_number" %}
+{% for post in working %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2 class="pub-category-title">Works in Progress</h2>
+{% assign wip = site.publications | where: "category", "wip" | sort: "pub_number" %}
+{% for post in wip %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2 class="pub-category-title">Publications in Business Analytics</h2>
+{% assign analytics = site.publications | where: "category", "analytics" | sort: "pub_number" %}
+{% for post in analytics %}
+  {% include archive-single.html %}
+{% endfor %}
