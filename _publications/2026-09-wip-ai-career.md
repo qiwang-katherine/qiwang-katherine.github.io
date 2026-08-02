@@ -1,5 +1,5 @@
 ---
-title: "AI Adoption's Impact on Hospital Workforce Retention: Does AI Help or Hurt?"
+title: "Artificial Intelligence, Clinical Expertise, and Hospital Workforce Retention"
 collection: publications
 permalink: /publication/06-wp-ai-career
 category: working
