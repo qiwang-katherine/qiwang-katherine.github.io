@@ -330,3 +330,34 @@ h6,
   font-size: 18px !important;
   line-height: 1.65 !important;
 }
+/* ========== Tighten publication entry spacing ========== */
+.pub-title {
+  margin-top: 1.2em !important;
+  margin-bottom: 0.2em !important;
+  line-height: 1.35 !important;
+}
+
+.pub-authors {
+  margin-top: 0.1em !important;
+  margin-bottom: 0.1em !important;
+  line-height: 1.4 !important;
+}
+
+.pub-venue {
+  margin-top: 0.1em !important;
+  margin-bottom: 0.1em !important;
+  line-height: 1.4 !important;
+}
+
+.pub-note {
+  margin-top: 0.1em !important;
+  margin-bottom: 0.1em !important;
+  line-height: 1.4 !important;
+}
+
+/* Reduce spacing around LINK tag */
+.pub-authors a[href*="ssrn"],
+.pub-authors a[href*="sagepub"],
+.pub-authors a[href*="emerald"] {
+  margin-left: 6px !important;
+}
