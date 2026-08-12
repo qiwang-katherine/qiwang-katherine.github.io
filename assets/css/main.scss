@@ -280,10 +280,11 @@ h1.page__title,
 }
 /* Co-authors under talk paper title */
 .talk-paper-coauthors {
-  font-size: 0.78em !important;
-  color: #777 !important;
-  font-variant: small-caps !important;
-  letter-spacing: 0.08em !important;
+  font-size: 0.85em !important;
+  color: #999 !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.02em !important;
   margin: -0.1em 0 0.8em 0 !important;
 }
 
