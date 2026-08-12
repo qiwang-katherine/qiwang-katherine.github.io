@@ -322,3 +322,11 @@ h6,
 .service-list {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
+
+/* ========== Reduce main content font size ========== */
+.page__content,
+.page__content p,
+.page__content li {
+  font-size: 15px !important;
+  line-height: 1.6 !important;
+}
