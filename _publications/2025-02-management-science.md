@@ -5,6 +5,7 @@ permalink: /publication/02-ms-algorithm-adoption
 category: submitted
 pub_number: 2
 authors: '<b>Qi Wang</b>, Jiayi Liu, Anandhi Bharadwaj, Ruba Aljafari, Abhinav Goyal. (2025). <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6149766" target="_blank" style="display: inline-block; padding: 2px 8px; margin-left: 6px; font-size: 0.85em; font-weight: 600; color: #2E5A8C; background-color: #E8F0F8; border: 1px solid #B8D0E8; border-radius: 4px; text-decoration: none; vertical-align: middle;">LINK</a>'
-venue_line: 'Under major revision at <b>Management Science</b>.<br>Accepted for presentation at <a href="https://cist2026.github.io/" target="_blank">CIST 2026</a>.'
+venue_line: 'Under major revision at <b>Management Science</b>.'
+note: 'Accepted for presentation at the 2026 INFORMS Conference on Information Systems and Technology (CIST).'
 date: 2025-02-01
 ---
