@@ -37,7 +37,7 @@ author_profile: true
 
 <ul class="service-list">
   <li>Reviewer, <i>Conference on Information Systems and Technology (CIST)</i>, 2026</li>
-  <li>Reviewer, <i>MSOM Healthcare Conference</i>, 2025</li>
+  <li>Reviewer, <i>MSOM Conference</i>, 2025</li>
 </ul>
 
 </div>
