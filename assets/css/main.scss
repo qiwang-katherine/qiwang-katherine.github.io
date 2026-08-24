@@ -263,3 +263,16 @@ a:hover,
 .archive__item .pub-note {
   font-size: 16px !important;
 }
+
+
+/* ========== Navigation bar: keep dark ========== */
+.masthead__menu-item a,
+.greedy-nav a,
+.greedy-nav__toggle {
+  color: #333 !important;
+}
+
+.masthead__menu-item a:hover,
+.greedy-nav a:hover {
+  color: #000 !important;
+}
