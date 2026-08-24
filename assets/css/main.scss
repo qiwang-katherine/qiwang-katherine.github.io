@@ -252,3 +252,14 @@ a:hover,
 .page__content a:hover {
   color: #3A5BA0 !important;
 }
+
+/* ========== Publication text sizes ========== */
+.archive__item .pub-title {
+  font-size: 18px !important;
+}
+
+.archive__item .pub-authors,
+.archive__item .pub-venue,
+.archive__item .pub-note {
+  font-size: 16px !important;
+}
