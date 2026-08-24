@@ -213,3 +213,16 @@ body, p, li, a, h1, h2, h3, h4, h5, h6,
   object-fit: cover;
   border-radius: 50%;
 }
+
+/* ========== Link color ========== */
+a,
+.page__content a,
+.author__urls a,
+.talk-list a {
+  color: #2E5A8C !important;
+}
+
+a:hover,
+.page__content a:hover {
+  color: #1F4E79 !important;
+}
