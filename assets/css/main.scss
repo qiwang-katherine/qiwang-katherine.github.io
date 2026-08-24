@@ -94,7 +94,7 @@ body, p, li, a, h1, h2, h3, h4, h5, h6,
   margin: 0.8em 0 0 0 !important;
   padding: 0 !important;
   line-height: 1.25 !important;
-  color: #2E5A8C !important;
+  color: #3A5BA0 !important;
 }
 
 .pub-number { margin-right: 0.3em; color: inherit; }
@@ -225,4 +225,17 @@ a,
 a:hover,
 .page__content a:hover {
   color: #1F4E79 !important;
+}
+
+/* ========== Link color ========== */
+a,
+.page__content a,
+.author__urls a,
+.talk-list a {
+  color: #3A5BA0 !important;
+}
+
+a:hover,
+.page__content a:hover {
+  color: #2C4479 !important;
 }
