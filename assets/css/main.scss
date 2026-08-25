@@ -240,3 +240,27 @@ a:hover,
   object-fit: cover;
   border-radius: 50%;
 }
+
+/* ========== Starred sub-list under each paper ========== */
+.pub-note-list {
+  list-style: none !important;
+  margin: 0.3em 0 0 0 !important;
+  padding-left: 1.5em !important;
+}
+
+.pub-note-list li {
+  font-size: 16px !important;
+  color: #555 !important;
+  font-style: italic !important;
+  line-height: 1.55 !important;
+  margin-bottom: 0.25em !important;
+  position: relative;
+}
+
+.pub-note-list li::before {
+  content: "\25B8";
+  position: absolute;
+  left: -1.2em;
+  color: #8899A6;
+  font-style: normal;
+}
