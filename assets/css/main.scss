@@ -137,7 +137,11 @@ a:hover,
   line-height: 1.38 !important;
 }
 
-.pub-number { display: none; }
+.pub-number {
+  margin-right: 0.4em;
+  color: #9A9A9A;
+  font-weight: 500;
+}
 
 .archive__item .pub-authors {
   font-size: 14.5px !important;
