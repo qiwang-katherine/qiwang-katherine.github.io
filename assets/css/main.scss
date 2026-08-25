@@ -39,7 +39,7 @@ body, p, li, a, h1, h2, h3, h4, h5, h6,
 .page__title, .page__content, .archive__item-title,
 .pub-title, .pub-authors, .pub-venue, .pub-note, .pub-category-title,
 .talk-paper-title, .talk-paper-coauthors, .talk-list,
-.teaching-role-title, .teaching-course, .teaching-detail,
+.teaching-role-title, .teaching-course, .teaching-meta, .teaching-detail,
 .service-section-title, .service-list {
   font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
@@ -269,24 +269,34 @@ a:hover,
 /* ========== Teaching & Service ========== */
 .teaching-section { margin-bottom: 2.2em; }
 
-.teaching-item { margin-bottom: 1.2em; }
+.teaching-item { margin-bottom: 1.4em; }
 
-.teaching-course {
+.page__content .teaching-course {
   font-size: 16.5px !important;
   font-weight: 600 !important;
   color: #1E1E1E !important;
-  margin: 0 0 0.2em 0 !important;
+  margin: 0 0 0.1em 0 !important;
+  padding: 0 !important;
   line-height: 1.4 !important;
 }
 
-.teaching-detail {
+.page__content .teaching-meta {
+  font-size: 14.5px !important;
+  color: #6E6E6E !important;
+  margin: 0 0 0.35em 0 !important;
+  padding: 0 !important;
+  line-height: 1.5 !important;
+}
+
+.page__content .teaching-detail {
   font-size: 15px !important;
   line-height: 1.55 !important;
-  margin: 0.1em 0 0.4em 1em !important;
+  margin: 0 0 0 1.2em !important;
+  padding: 0 !important;
   color: #2A2A2A;
 }
 
-.teaching-detail li { margin-bottom: 0.2em; }
+.teaching-detail li { margin-bottom: 0.15em; }
 
 .service-list {
   font-size: 15px !important;
@@ -318,13 +328,4 @@ a:hover,
   height: 200px !important;
   object-fit: cover;
   border-radius: 50%;
-}
-
-
-/* Teaching course meta line */
-.teaching-meta {
-  font-size: 14.5px !important;
-  color: #6E6E6E !important;
-  margin: 0 0 0.35em 0 !important;
-  line-height: 1.5 !important;
 }
