@@ -87,6 +87,14 @@ a:hover,
   color: #46567E !important;
 }
 
+.page__content a {
+  text-decoration: none !important;
+}
+
+.page__content a:hover {
+  text-decoration: underline !important;
+}
+
 /* Sidebar contact links stay dark */
 .author__urls a,
 .author__urls a:visited,
@@ -99,19 +107,22 @@ a:hover,
   text-decoration: underline !important;
 }
 
-/* ========== Publications ========== */
-.pub-category-title {
-  font-size: 11.5px !important;
-  font-weight: 600 !important;
-  letter-spacing: 0.15em !important;
-  text-transform: uppercase !important;
-  color: #9A9A9A !important;
-  border-bottom: 1px solid #EAEAEA !important;
+/* ========== Section headings ========== */
+.pub-category-title,
+.teaching-role-title,
+.service-section-title {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  letter-spacing: normal !important;
+  text-transform: none !important;
+  color: #1E1E1E !important;
+  border-bottom: 1px solid #E5E5E5 !important;
   margin-top: 2.8em !important;
   margin-bottom: 1.1em !important;
   padding-bottom: 8px !important;
 }
 
+/* ========== Publications ========== */
 .archive__item {
   margin-bottom: 1.7em !important;
   padding: 0 !important;
@@ -177,9 +188,10 @@ a:hover,
   background-color: #5B6E9E;
   color: #ffffff !important;
   border-color: #5B6E9E;
+  text-decoration: none !important;
 }
 
-/* ========== Starred sub-list under each paper ========== */
+/* ========== Sub-list under each paper ========== */
 .pub-note-list {
   list-style: none !important;
   margin: 0.2em 0 0 0 !important;
@@ -246,19 +258,6 @@ a:hover,
 /* ========== Teaching & Service ========== */
 .teaching-section { margin-bottom: 2.2em; }
 
-.teaching-role-title,
-.service-section-title {
-  font-size: 11.5px !important;
-  font-weight: 600 !important;
-  letter-spacing: 0.15em !important;
-  text-transform: uppercase !important;
-  color: #9A9A9A !important;
-  border-bottom: 1px solid #EAEAEA !important;
-  margin-top: 2.4em !important;
-  margin-bottom: 1em !important;
-  padding-bottom: 8px !important;
-}
-
 .teaching-item { margin-bottom: 1.2em; }
 
 .teaching-course {
@@ -308,13 +307,4 @@ a:hover,
   height: 200px !important;
   object-fit: cover;
   border-radius: 50%;
-}
-
-/* ========== Content links: no underline ========== */
-.page__content a {
-  text-decoration: none !important;
-}
-
-.page__content a:hover {
-  text-decoration: underline !important;
 }
