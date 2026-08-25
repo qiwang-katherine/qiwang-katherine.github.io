@@ -309,3 +309,12 @@ a:hover,
   object-fit: cover;
   border-radius: 50%;
 }
+
+/* ========== Content links: no underline ========== */
+.page__content a {
+  text-decoration: none !important;
+}
+
+.page__content a:hover {
+  text-decoration: underline !important;
+}
