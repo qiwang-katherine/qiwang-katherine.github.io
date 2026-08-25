@@ -117,7 +117,7 @@ a:hover,
   text-transform: none !important;
   color: #1E1E1E !important;
   border-bottom: 1px solid #E5E5E5 !important;
-  margin-top: 2.8em !important;
+  margin-top: 2em !important;
   margin-bottom: 1.1em !important;
   padding-bottom: 8px !important;
 }
@@ -161,7 +161,11 @@ a:hover,
   line-height: 1.5 !important;
 }
 
-.pub-venue b, .pub-venue strong { font-weight: 600 !important; }
+.pub-venue b,
+.pub-venue strong { font-weight: 600 !important; }
+
+.pub-venue i,
+.pub-venue em { font-style: normal !important; }
 
 .archive__item .pub-note {
   font-size: 15.5px !important;
@@ -171,6 +175,9 @@ a:hover,
   padding: 0 !important;
   line-height: 1.5 !important;
 }
+
+.pub-note i,
+.pub-note em { font-style: normal !important; }
 
 /* ========== LINK tag ========== */
 .pub-link-tag {
