@@ -45,11 +45,15 @@ body, p, li, a, h1, h2, h3, h4, h5, h6,
 }
 
 /* ========== Main content ========== */
+.page__content {
+  max-width: 46em;
+}
+
 .page__content,
 .page__content p,
 .page__content li {
   font-size: 18px !important;
-  line-height: 1.65 !important;
+  line-height: 1.7 !important;
 }
 
 .page__title {
@@ -61,8 +65,8 @@ body, p, li, a, h1, h2, h3, h4, h5, h6,
 .page__content > *:first-child { margin-top: 0 !important; }
 
 .page__content p {
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
+  margin-top: 0.9em !important;
+  margin-bottom: 0.9em !important;
 }
 
 .page__content p:first-of-type {
@@ -70,61 +74,72 @@ body, p, li, a, h1, h2, h3, h4, h5, h6,
   padding-top: 0 !important;
 }
 
+/* ========== Links ========== */
+a,
+.page__content a,
+.author__urls a,
+.talk-list a {
+  color: #4C72C9 !important;
+}
+
+a:hover,
+.page__content a:hover {
+  color: #3A5BA0 !important;
+}
+
 /* ========== Publications ========== */
 .pub-category-title {
   font-size: 1.3em !important;
   font-weight: 700 !important;
-  margin-top: 1.2em !important;
-  margin-bottom: 0.4em !important;
+  margin-top: 3em !important;
+  margin-bottom: 1.2em !important;
   padding-bottom: 0.3em !important;
   border-bottom: 2px solid #ddd !important;
   color: #333 !important;
 }
 
 .archive__item {
-  margin-bottom: 0.3em !important;
+  margin-bottom: 2.4em !important;
   padding: 0 !important;
 }
 
-.archive__item p { margin: 0 !important; padding: 0 !important; }
-
-.pub-title {
-  font-size: 0.95em !important;
+.archive__item .pub-title {
+  font-size: 18px !important;
   font-weight: 600 !important;
-  margin: 0.8em 0 0 0 !important;
+  color: #2B6CB0 !important;
+  margin: 0 0 0.45em 0 !important;
   padding: 0 !important;
-  line-height: 1.25 !important;
-color: #2B6CB0 !important;
+  line-height: 1.4 !important;
 }
 
 .pub-number { margin-right: 0.3em; color: inherit; }
 
-.pub-authors {
-  font-size: 0.88em !important;
-  color: #333;
-  margin: 0 !important;
+.archive__item .pub-authors {
+  font-size: 17px !important;
+  color: #333 !important;
+  margin: 0 0 0.35em 0 !important;
   padding: 0 !important;
-  line-height: 1.3 !important;
+  line-height: 1.55 !important;
 }
 
-.pub-venue {
-  font-size: 0.88em !important;
+.archive__item .pub-venue {
+  font-size: 17px !important;
   font-weight: 700 !important;
   font-style: italic !important;
-  margin: 0 !important;
+  margin: 0 0 0.35em 0 !important;
   padding: 0 !important;
-  line-height: 1.3 !important;
+  line-height: 1.55 !important;
 }
 
 .pub-venue b, .pub-venue strong { font-weight: 800 !important; }
 
-.pub-note {
-  font-size: 0.85em !important;
-  color: #555;
-  font-style: italic;
+.archive__item .pub-note {
+  font-size: 17px !important;
+  color: #555 !important;
+  font-style: italic !important;
   margin: 0 !important;
   padding: 0 !important;
-  line-height: 1.3 !important;
+  line-height: 1.55 !important;
 }
 
 .pub-authors a[href*="ssrn"],
@@ -133,13 +148,25 @@ color: #2B6CB0 !important;
   margin-left: 6px !important;
 }
 
+/* ========== Navigation bar ========== */
+.masthead__menu-item a,
+.greedy-nav a,
+.greedy-nav__toggle {
+  color: #333 !important;
+}
+
+.masthead__menu-item a:hover,
+.greedy-nav a:hover {
+  color: #000 !important;
+}
+
 /* ========== Talks ========== */
-.talk-paper { margin-bottom: 2em; }
+.talk-paper { margin-bottom: 2.6em; }
 
 .talk-paper-title {
   font-size: 1.0em !important;
   font-weight: 700 !important;
-  margin-top: 1.5em !important;
+  margin-top: 1.8em !important;
   margin-bottom: 0.4em !important;
 }
 
@@ -149,16 +176,16 @@ color: #2B6CB0 !important;
   font-style: italic !important;
   font-weight: 400 !important;
   letter-spacing: 0.02em !important;
-  margin: -0.1em 0 0.8em 0 !important;
+  margin: -0.1em 0 0.9em 0 !important;
 }
 
 .talk-list {
   font-size: 0.9em !important;
-  line-height: 1.6 !important;
+  line-height: 1.7 !important;
   margin-left: 1.2em !important;
 }
 
-.talk-list li { margin-bottom: 0.3em; }
+.talk-list li { margin-bottom: 0.45em; }
 
 /* ========== Teaching ========== */
 .teaching-section { margin-bottom: 2.5em; }
@@ -166,29 +193,29 @@ color: #2B6CB0 !important;
 .teaching-role-title {
   font-size: 1.3em !important;
   font-weight: 700 !important;
-  margin-top: 1.5em !important;
-  margin-bottom: 0.5em !important;
+  margin-top: 1.8em !important;
+  margin-bottom: 0.6em !important;
   padding-bottom: 0.3em !important;
   border-bottom: 2px solid #ddd !important;
   color: #333 !important;
 }
 
-.teaching-item { margin-bottom: 1.2em; }
+.teaching-item { margin-bottom: 1.4em; }
 
 .teaching-course {
   font-size: 1.0em !important;
   margin: 0.5em 0 0.3em 0 !important;
-  line-height: 1.4 !important;
+  line-height: 1.5 !important;
 }
 
 .teaching-detail {
   font-size: 0.9em !important;
-  line-height: 1.5 !important;
+  line-height: 1.6 !important;
   margin: 0.2em 0 0.5em 1em !important;
   color: #444;
 }
 
-.teaching-detail li { margin-bottom: 0.2em; }
+.teaching-detail li { margin-bottom: 0.3em; }
 
 /* ========== Life page images ========== */
 .interest-image { max-width: 220px; margin: 1.5em 0; }
@@ -212,67 +239,4 @@ color: #2B6CB0 !important;
   height: 280px !important;
   object-fit: cover;
   border-radius: 50%;
-}
-
-/* ========== Link color ========== */
-a,
-.page__content a,
-.author__urls a,
-.talk-list a {
-  color: #2E5A8C !important;
-}
-
-a:hover,
-.page__content a:hover {
-  color: #1F4E79 !important;
-}
-
-/* ========== Link color ========== */
-a,
-.page__content a,
-.author__urls a,
-.talk-list a {
-  color: #3A5BA0 !important;
-}
-
-a:hover,
-.page__content a:hover {
-  color: #2C4479 !important;
-}
-
-/* ========== Link color ========== */
-a,
-.page__content a,
-.author__urls a,
-.talk-list a {
-  color: #4C72C9 !important;
-}
-
-a:hover,
-.page__content a:hover {
-  color: #3A5BA0 !important;
-}
-
-/* ========== Publication text sizes ========== */
-.archive__item .pub-title {
-  font-size: 18px !important;
-}
-
-.archive__item .pub-authors,
-.archive__item .pub-venue,
-.archive__item .pub-note {
-  font-size: 17px !important;
-}
-
-
-/* ========== Navigation bar: keep dark ========== */
-.masthead__menu-item a,
-.greedy-nav a,
-.greedy-nav__toggle {
-  color: #333 !important;
-}
-
-.masthead__menu-item a:hover,
-.greedy-nav a:hover {
-  color: #000 !important;
 }
