@@ -77,14 +77,25 @@ body, p, li, a, h1, h2, h3, h4, h5, h6,
 /* ========== Links ========== */
 a,
 .page__content a,
-.author__urls a,
 .talk-list a {
-  color: #4C72C9 !important;
+  color: #5B6E9E !important;
 }
 
 a:hover,
 .page__content a:hover {
-  color: #3A5BA0 !important;
+  color: #46567E !important;
+}
+
+/* Sidebar contact links stay dark */
+.author__urls a,
+.author__urls a:visited,
+.author__urls a i {
+  color: #333 !important;
+}
+
+.author__urls a:hover {
+  color: #000 !important;
+  text-decoration: underline !important;
 }
 
 /* ========== Publications ========== */
@@ -106,7 +117,7 @@ a:hover,
 .archive__item .pub-title {
   font-size: 18px !important;
   font-weight: 600 !important;
-  color: #2B6CB0 !important;
+  color: #5B6E9E !important;
   margin: 0 0 0.45em 0 !important;
   padding: 0 !important;
   line-height: 1.4 !important;
@@ -261,6 +272,6 @@ a:hover,
   content: "\25B8";
   position: absolute;
   left: -1.2em;
-  color: #8899A6;
+  color: #5B6E9E;
   font-style: normal;
 }
