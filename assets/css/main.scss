@@ -329,3 +329,10 @@ a:hover,
   object-fit: cover;
   border-radius: 50%;
 }
+
+
+/* Justify the intro paragraphs */
+.page__content > p {
+  text-align: justify;
+  hyphens: auto;
+}
