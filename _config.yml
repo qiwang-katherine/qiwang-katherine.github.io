@@ -1,7 +1,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : ""
+title                    : "Qi Wang"
 title_separator          : "-"
 name                     : &name "Qi Wang"
 description              : &description "Personal website of Qi Wang, Postdoctoral Associate at Boston University. Research on healthcare operations management, health AI, AI and workforce."
@@ -12,7 +12,7 @@ repository               : "qiwang-katherine/qiwang-katherine.github.io"
 # Site Author
 author:
   avatar           : "profile.png"
-  name             : "Qi Wang"
+  name             : ""
   pronouns         : 
   bio              : "Postdoctoral Associate at Boston University | Healthcare Management | AI | Future of Work"
   location         : "Boston, US"
