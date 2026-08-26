@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome!"
+title: "Qi (Katherine) Wang"
 author_profile: true
 redirect_from: 
   - /about/
