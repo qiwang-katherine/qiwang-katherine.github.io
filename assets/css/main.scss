@@ -267,11 +267,12 @@ a:hover,
 .talk-list li { margin-bottom: 0.35em; }
 
 /* ========== Teaching & Service ========== */
-.teaching-section { margin-bottom: 2.2em; }
+/* ========== Teaching & Service ========== */
+.teaching-section { margin-bottom: 2em; }
 
-.teaching-item { margin-bottom: 1.4em; }
+.teaching-item { margin-bottom: 1.6em; }
 
-.page__content .teaching-course {
+.page__content .teaching-item p.teaching-course {
   font-size: 16.5px !important;
   font-weight: 600 !important;
   color: #1E1E1E !important;
@@ -280,15 +281,16 @@ a:hover,
   line-height: 1.4 !important;
 }
 
-.page__content .teaching-meta {
+.page__content .teaching-item p.teaching-meta {
   font-size: 14.5px !important;
+  font-weight: 400 !important;
   color: #6E6E6E !important;
-  margin: 0 0 0.35em 0 !important;
+  margin: 0 0 0.4em 0 !important;
   padding: 0 !important;
   line-height: 1.5 !important;
 }
 
-.page__content .teaching-detail {
+.page__content .teaching-item ul.teaching-detail {
   font-size: 15px !important;
   line-height: 1.55 !important;
   margin: 0 0 0 1.2em !important;
@@ -296,7 +298,11 @@ a:hover,
   color: #2A2A2A;
 }
 
-.teaching-detail li { margin-bottom: 0.15em; }
+.page__content .teaching-item ul.teaching-detail li {
+  margin-bottom: 0.15em !important;
+  font-size: 15px !important;
+  line-height: 1.55 !important;
+}
 
 .service-list {
   font-size: 15px !important;
