@@ -333,8 +333,8 @@ a:hover,
 /* ========== Intro two-column layout ========== */
 .intro-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 215px);
-  gap: 2.2em;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 185px);
+  gap: 2.4em;
   align-items: start;
   margin-bottom: 1.6em;
 }
