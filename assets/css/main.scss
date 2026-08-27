@@ -383,6 +383,17 @@ a:hover,
   border-top: none !important;
 }
 
+.sidebar .sidebar-talks__heading {
+  font-family: 'Spectral', Georgia, serif !important;
+  font-size: 15px !important;
+  font-style: italic !important;
+  font-weight: 500 !important;
+  color: #0B5FA5 !important;
+  margin: 0 0 0.4em 0 !important;
+  padding: 0 !important;
+  line-height: 1.3 !important;
+}
+
 .sidebar .sidebar-talks__heading::before {
   content: "";
   display: block;
