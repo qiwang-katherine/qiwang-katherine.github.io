@@ -378,20 +378,20 @@ a:hover,
 .sidebar .sidebar-talks {
   margin-top: 0.5em !important;
   padding-top: 0 !important;
-  border-top: none !important;
-}
-
-.sidebar .sidebar-talks {
-  margin-top: 0.9em !important;
-  padding: 12px 13px !important;
-  background: #F6F6F4 !important;
-  border-radius: 6px !important;
+  background: none !important;
+  border-radius: 0 !important;
   border-top: none !important;
 }
 
 .sidebar .sidebar-talks__heading::before {
-  content: none;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #0B5FA5;
+  margin-bottom: 0.75em;
 }
+
 .sidebar .sidebar-talks__list {
   list-style: none !important;
   margin: 0 !important;
