@@ -3,7 +3,7 @@ title: "Determinants of individuals' intentions to use central bank digital curr
 collection: publications
 permalink: /publication/16-tasm-cbdc
 category: analytics
-pub_number: 16
+pub_number: 15
 authors: 'Xin Liu, <b>Qi Wang</b>, Guangdong Wu, Chenghu Zhang. (2024).'
 venue_line: 'Technology Analysis & Strategic Management, 1–15.'
 date: 2024-03-01
