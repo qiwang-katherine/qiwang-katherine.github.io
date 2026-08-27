@@ -267,41 +267,48 @@ a:hover,
 .talk-list li { margin-bottom: 0.35em; }
 
 /* ========== Teaching & Service ========== */
-.teaching-section { margin-bottom: 2em; }
+.teaching-section { margin-bottom: 1.8em; }
 
-.teaching-item { margin-bottom: 1.6em; }
+.teaching-item { margin-bottom: 1.4em; }
 
+.archive .teaching-item p.teaching-course,
 .page__content .teaching-item p.teaching-course {
   font-size: 16.5px !important;
   font-weight: 600 !important;
   color: #1E1E1E !important;
-  margin: 0 0 0.1em 0 !important;
+  margin: 0 0 0.15em 0 !important;
   padding: 0 !important;
-  line-height: 1.4 !important;
+  line-height: 1.35 !important;
 }
 
+.archive .teaching-item p.teaching-meta,
 .page__content .teaching-item p.teaching-meta {
   font-size: 14.5px !important;
   font-weight: 400 !important;
   color: #6E6E6E !important;
-  margin: 0 0 0.4em 0 !important;
+  margin: 0 0 0.45em 0 !important;
   padding: 0 !important;
-  line-height: 1.5 !important;
+  line-height: 1.45 !important;
 }
 
+.archive .teaching-item ul.teaching-detail,
 .page__content .teaching-item ul.teaching-detail {
   font-size: 15px !important;
   line-height: 1.55 !important;
-  margin: 0 0 0 1.2em !important;
+  margin: 0 0 0 1.1em !important;
   padding: 0 !important;
-  color: #2A2A2A;
+  color: #2A2A2A !important;
 }
 
+.archive .teaching-item ul.teaching-detail li,
 .page__content .teaching-item ul.teaching-detail li {
-  margin-bottom: 0.15em !important;
+  margin-bottom: 0.12em !important;
+  padding: 0 !important;
   font-size: 15px !important;
   line-height: 1.55 !important;
 }
+
+.archive h2.teaching-role-title { margin-bottom: 0.7em !important; }
 
 .service-list {
   font-size: 15px !important;
@@ -335,64 +342,63 @@ a:hover,
   border-radius: 50%;
 }
 
-/* ========== Intro two-column layout ========== */
-.intro-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 205px);
-  gap: 2.4em;
-  align-items: start;
-  margin-bottom: 1.6em;
+/* ========== Sidebar talks ========== */
+.author__urls li {
+  margin-bottom: 0.15em !important;
+  padding: 0 !important;
+  line-height: 1.5 !important;
 }
 
-@media (max-width: 900px) {
-  .intro-grid {
-    grid-template-columns: 1fr;
-    gap: 1.4em;
-  }
+.author__urls-wrapper {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 
-.page__content .intro-main p {
-  text-align: left !important;
-  line-height: 1.3 !important;
-  margin-top: 0.6em !important;
-  margin-bottom: 0.6em !important;
+.sidebar .sidebar-talks {
+  margin-top: 0.9em !important;
+  padding-top: 0.8em !important;
+  border-top: 1px solid #E5E5E5 !important;
 }
 
-.page__content .side-heading {
+.sidebar .sidebar-talks__heading {
   font-family: 'Spectral', Georgia, serif !important;
-  font-size: 16px !important;
+  font-size: 15px !important;
   font-style: italic !important;
   font-weight: 500 !important;
-  letter-spacing: normal !important;
-  text-transform: none !important;
   color: #1E1E1E !important;
-  margin: 0 0 0.65em 0 !important;
-  padding-bottom: 7px !important;
-  border-bottom: 1px solid #E5E5E5 !important;
+  margin: 0 0 0.7em 0 !important;
+  padding: 0 !important;
+  line-height: 1.3 !important;
 }
 
-.page__content .side-list {
+.sidebar .sidebar-talks__list {
   list-style: none !important;
   margin: 0 !important;
   padding: 0 !important;
 }
 
-.page__content .side-list li {
-  margin-bottom: 0.85em !important;
+.sidebar .sidebar-talks__list li {
+  margin-bottom: 0.8em !important;
+  padding: 0 !important;
+  list-style: none !important;
 }
 
-.side-name {
-  display: block;
-  font-size: 12.9px;
-  font-weight: 500;
-  color: #1E1E1E;
-  line-height: 1.35;
+.sidebar .sidebar-talks__name {
+  display: block !important;
+  font-size: 12.6px !important;
+  font-weight: 600 !important;
+  color: #1E1E1E !important;
+  line-height: 1.35 !important;
 }
 
-.side-date {
-  display: block;
-  font-size: 12px;
-  color: #8E8E8E;
-  line-height: 1.4;
-  margin-top: 1px;
+.sidebar .sidebar-talks__date {
+  display: block !important;
+  font-size: 11.8px !important;
+  color: #8E8E8E !important;
+  line-height: 1.4 !important;
+  margin-top: 1px !important;
+}
+
+@media (max-width: 1023px) {
+  .sidebar .sidebar-talks { display: none !important; }
 }
