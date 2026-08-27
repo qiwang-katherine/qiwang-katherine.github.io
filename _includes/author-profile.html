@@ -178,4 +178,59 @@
       {% endif %}      
     </ul>
   </div>
+
+  <div class="sidebar-talks">
+    <p class="sidebar-talks__heading">Upcoming talks</p>
+    <ul class="sidebar-talks__list">
+      <li><span class="sidebar-talks__name">Workshop on Empirical Research in OM (Wharton)</span><span class="sidebar-talks__date">Philadelphia · Oct 1</span></li>
+      <li><span class="sidebar-talks__name">INFORMS CIST</span><span class="sidebar-talks__date">San Francisco · Oct 31</span></li>
+      <li><span class="sidebar-talks__name">INFORMS Annual Meeting</span><span class="sidebar-talks__date">San Francisco · Nov 2</span></li>
+      <li><span class="sidebar-talks__name">DSI Annual Conference</span><span class="sidebar-talks__date">San Francisco · Nov 22</span></li>
+    </ul>
+  </div>
+
 </div>
+
+<style>
+.sidebar-talks {
+  margin-top: 1.6em;
+  padding-top: 1.1em;
+  border-top: 1px solid #E5E5E5;
+}
+.sidebar-talks__heading {
+  font-family: 'Spectral', Georgia, serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 500;
+  color: #1E1E1E;
+  margin: 0 0 0.7em 0;
+  padding: 0;
+  line-height: 1.3;
+}
+.sidebar-talks__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sidebar-talks__list li {
+  margin-bottom: 0.8em;
+  padding: 0;
+}
+.sidebar-talks__name {
+  display: block;
+  font-size: 12.6px;
+  font-weight: 600;
+  color: #1E1E1E;
+  line-height: 1.35;
+}
+.sidebar-talks__date {
+  display: block;
+  font-size: 11.8px;
+  color: #8E8E8E;
+  line-height: 1.4;
+  margin-top: 1px;
+}
+@media (max-width: 1023px) {
+  .sidebar-talks { display: none; }
+}
+</style>
