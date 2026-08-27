@@ -3,7 +3,7 @@ title: "Evolutionary Game Analysis of FinTech Transformation: A Social Co-govern
 collection: publications
 permalink: /publication/15-frontiers-fintech
 category: analytics
-pub_number: 15
+pub_number: 14
 authors: '<b>Qi Wang</b>, Xin Liu, Chenghu Zhang. (2022).'
 venue_line: 'Frontiers in Psychology.'
 date: 2022-06-01
