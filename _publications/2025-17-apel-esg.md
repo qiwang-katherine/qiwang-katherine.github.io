@@ -3,7 +3,7 @@ title: "Does investor sentiment enhance the impact of ESG ratings on firms' fina
 collection: publications
 permalink: /publication/17-apel-esg
 category: analytics
-pub_number: 17
+pub_number: 16
 authors: 'Qingyu Hu, <b>Qi Wang</b>*. (2025). <i>(*Corresponding author)</i>'
 venue_line: 'Asian-Pacific Economic Literature.'
 date: 2025-07-01
