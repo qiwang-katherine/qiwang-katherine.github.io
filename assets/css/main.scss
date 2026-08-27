@@ -111,7 +111,7 @@ a:hover,
 .pub-category-title,
 .teaching-role-title,
 .service-section-title {
-  font-size: 21px !important;
+  font-size: 19px !important;
   font-weight: 700 !important;
   letter-spacing: normal !important;
   text-transform: none !important;
@@ -129,7 +129,7 @@ a:hover,
 }
 
 .archive__item .pub-title {
-  font-size: 16.5px !important;
+  font-size: 17.5px !important;
   font-weight: 600 !important;
   color: #1E1E1E !important;
   margin: 0 0 0.15em 0 !important;
@@ -144,7 +144,7 @@ a:hover,
 }
 
 .archive__item .pub-authors {
-  font-size: 15.5px !important;
+  font-size: 15px !important;
   color: #2A2A2A !important;
   margin: 0 0 0.1em 0 !important;
   padding: 0 !important;
@@ -152,7 +152,7 @@ a:hover,
 }
 
 .archive__item .pub-venue {
-  font-size: 15.5px !important;
+  font-size: 15px !important;
   font-weight: 600 !important;
   font-style: normal !important;
   color: #2A2A2A !important;
@@ -168,7 +168,7 @@ a:hover,
 .pub-venue em { font-style: normal !important; }
 
 .archive__item .pub-note {
-  font-size: 15.5px !important;
+  font-size: 15px !important;
   color: #2A2A2A !important;
   font-style: normal !important;
   margin: 0.15em 0 0 0 !important;
@@ -210,7 +210,7 @@ a:hover,
 }
 
 .pub-note-list li {
-  font-size: 15.5px !important;
+  font-size: 15px !important;
   color: #2A2A2A !important;
   font-style: normal !important;
   line-height: 1.5 !important;
@@ -241,7 +241,7 @@ a:hover,
 .talk-paper { margin-bottom: 2.2em; }
 
 .talk-paper-title {
-  font-size: 17px !important;
+  font-size: 17.5px !important;
   font-weight: 600 !important;
   color: #1E1E1E !important;
   margin-top: 1.6em !important;
@@ -273,7 +273,7 @@ a:hover,
 
 .archive .teaching-item p.teaching-course,
 .page__content .teaching-item p.teaching-course {
-  font-size: 16.5px !important;
+  font-size: 17.5px !important;
   font-weight: 600 !important;
   color: #1E1E1E !important;
   margin: 0 0 0.15em 0 !important;
@@ -344,7 +344,16 @@ a:hover,
   border-radius: 3px;
 }
 
-/* ========== Sidebar bio ========== */
+/* ========== Sidebar name & bio ========== */
+.sidebar .author__name {
+  font-size: 17px !important;
+  font-weight: 500 !important;
+  color: #1E1E1E !important;
+  margin: 0 0 0.25em 0 !important;
+  padding: 0 !important;
+  line-height: 1.3 !important;
+}
+
 .sidebar .author__bio {
   font-size: 14.5px !important;
   line-height: 1.32 !important;
@@ -422,14 +431,7 @@ a:hover,
   .sidebar .sidebar-talks { display: none !important; }
 }
 
+/* ========== Footer ========== */
 .page__footer {
   display: none !important;
-}
-.sidebar .author__name {
-  font-size: 17px !important;
-  font-weight: 500 !important;
-  color: #1E1E1E !important;
-  margin: 0 0 0.25em 0 !important;
-  padding: 0 !important;
-  line-height: 1.3 !important;
 }
