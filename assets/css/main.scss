@@ -421,3 +421,7 @@ a:hover,
 @media (max-width: 1023px) {
   .sidebar .sidebar-talks { display: none !important; }
 }
+
+.page__footer {
+  display: none !important;
+}
