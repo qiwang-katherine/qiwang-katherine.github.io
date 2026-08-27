@@ -337,9 +337,10 @@ a:hover,
 .author__avatar img {
   width: 200px !important;
   max-width: 200px !important;
-  height: 200px !important;
+  height: 240px !important;
   object-fit: cover;
-  border-radius: 50%;
+  object-position: center 20%;
+  border-radius: 3px;
 }
 
 /* ========== Sidebar bio ========== */
