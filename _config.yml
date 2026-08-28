@@ -54,6 +54,13 @@ author:
   youtube          :
   zhihu            :
 
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-74WNC3TXZB"
+    anonymize_ip: false
+
 # Reading Files
 include:
   - .htaccess
