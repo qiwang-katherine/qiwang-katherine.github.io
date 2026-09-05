@@ -452,3 +452,15 @@ a:hover,
   padding: 0 !important;
   line-height: 1.4 !important;
 }
+
+/* ========== Page width ========== */
+#main {
+  max-width: 1600px !important;
+}
+
+@media (min-width: 80em) {
+  .page,
+  .archive {
+    max-width: none !important;
+  }
+}
