@@ -10,7 +10,7 @@ redirect_from:
 
 <p><strong style="color: #1E1E1E; font-weight: 600;">My research examines how AI transforms human expertise, work, and organizations.</strong> Grounded primarily in <strong style="color: #1E1E1E; font-weight: 600;">healthcare</strong>, I study how technologies and devices reshape care delivery, workforce dynamics, and organizational outcomes. I draw on causal inference, ML, NLP, and LLMs methods, applied to administrative and healthcare data, at the intersection of information systems and operations management.</p>
 
-<p>My AI research projects have been awarded grants from the <a href="https://www.bu.edu/dbi/ai-initiative/">Business of AI Initiative</a> at Boston University's Digital Business Institute. I proposed <i>AI-Enabled Organizational Learning in Healthcare</i>, a project in collaboration with Boston-area hospitals, and work on <i>Generative AI and the Future of Work</i>.</p>
+<p>My AI research projects have been awarded grants from the <a href="https://www.bu.edu/dbi/ai-initiative/">Business of AI Initiative</a> at Boston University's Digital Business Institute. I proposed <i>"AI-Enabled Organizational Learning in Healthcare"</i>, a project in collaboration with Boston-area hospitals, and work on <i>"Generative AI and the Future of Work"</i>.</p>
 
 {% include base_path %}
 <h2 class="pub-category-title">Publications and Submitted Papers</h2>
