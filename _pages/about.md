@@ -12,7 +12,7 @@ redirect_from:
 
 <p class="grant-heading">Funded projects</p>
 
-<p>My AI research projects have been awarded grants from the <a href="https://www.bu.edu/dbi/ai-initiative/">Business of AI Initiative</a> at Boston University's Digital Business Institute. I co-proposed <i>AI-Enabled Organizational Learning in Healthcare</i>, a project in collaboration with Boston-area hospitals, and work on a second project on generative AI and the future of work.</p>
+<p>My AI research projects have been awarded grants from the <a href="https://www.bu.edu/dbi/ai-initiative/">Business of AI Initiative</a> at Boston University's Digital Business Institute. I proposed <i>AI-Enabled Organizational Learning in Healthcare</i>, a project in collaboration with Boston-area hospitals, and work on <i>Generative AI and the Future of Work</i>.</p>
 
 {% include base_path %}
 <h2 class="pub-category-title">Publications and Submitted Papers</h2>
