@@ -5,6 +5,6 @@ permalink: /publication/03-genai-disclosure
 category: submitted
 pub_number: 4
 authors: 'Linghui Feng, <b>Qi Wang</b>*, Marcus Bellamy. (2025). <i>(*Corresponding author)</i>'
-venue_line: 'Under review at Production and Operations Management.'
+venue_line: 'Under major revision at Production and Operations Management.'
 date: 2025-06-01
 ---
