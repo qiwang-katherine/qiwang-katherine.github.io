@@ -13,6 +13,7 @@ author_profile: true
   <li>Manufacturing and Service Operations Management</li>
   <li>Production and Operations Management</li>
   <li>Journal of Operations Management</li>
+  <li>International Journal of Operations & Production Management</li>
   <li>BMC Health Services Research</li>
   <li>Journal of Cardiovascular Pharmacology</li>
   
