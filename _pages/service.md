@@ -26,6 +26,7 @@ author_profile: true
 <h2 class="service-section-title">Organization of Invited Sessions in Conferences</h2>
 
 <ul class="service-list">
+<li>Session Chair, <i>37th Annual POMS Conference</i>, Orlando, FL, 2027</li>
 <li>Session Chair, <i>INFORMS Annual Meeting</i>, San Francisco, CA, 2026</li>
 <li>Session Chair, <i>36th Annual POMS Conference</i>, Reno, NV, 2026</li>
 </ul>
