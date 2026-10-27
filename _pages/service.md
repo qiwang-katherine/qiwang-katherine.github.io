@@ -27,7 +27,8 @@ author_profile: true
 
 <ul class="service-list">
 <li>Session Chair, <i>37th Annual POMS Conference</i>, Orlando, FL, 2027</li>
-<li>Session Chair, <i>INFORMS Annual Meeting</i>, San Francisco, CA, 2026</li>
+<li>Session Chair, <i>2026 INFORMS Conference on Information Systems and Technology (CIST)</i>, San Francisco, CA</li>
+<li>Session Chair, <i>2026 INFORMS Annual Meeting</i>, San Francisco, CA, </li>
 <li>Session Chair, <i>36th Annual POMS Conference</i>, Reno, NV, 2026</li>
 </ul>
 
