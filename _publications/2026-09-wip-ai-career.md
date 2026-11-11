@@ -1,5 +1,5 @@
 ---
-title: 'Does AI Retain Physicians? A Seniority Gradient and Expertise Reallocation in Hospitals <span style="color: #E0A106; font-size: 0.9em;">★ Job Market Paper</span>'
+title: 'Does AI Retain Physicians? A Seniority Gradient and Expertise Reallocation in Hospitals <span style="color: #AA142D; font-size: 0.9em;">✦ Job Market Paper</span>'
 collection: publications
 permalink: /publication/06-wp-ai-career
 category: working
