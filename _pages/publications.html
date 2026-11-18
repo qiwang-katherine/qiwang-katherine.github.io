@@ -11,7 +11,15 @@ author_profile: true
 
 {% include base_path %}
 
-<h2 class="pub-category-title">Publications and Submitted Papers</h2>
+<h2 class="pub-category-title">Job Market Paper</h2>
+<div class="jmp-section">
+{% assign jmp = site.publications | where: "category", "jmp" | sort: "pub_number" %}
+{% for post in jmp %}
+  {% include archive-single.html %}
+{% endfor %}
+</div>
+
+<h2 class="pub-category-title">Publications and Papers under Review</h2>
 {% assign submitted = site.publications | where: "category", "submitted" | sort: "pub_number" %}
 {% for post in submitted %}
   {% include archive-single.html %}
