@@ -1,8 +1,8 @@
 ---
-title: 'Does AI Retain Physicians? A Seniority Gradient and Expertise Reallocation in Hospitals <span style="color: #AA142D; font-size: 0.9em;">✦ Job Market Paper</span>'
+title: 'Does AI Retain Physicians? A Seniority Gradient and Expertise Reallocation in Hospitals'
 collection: publications
 permalink: /publication/06-wp-ai-career
-category: working
+category: jmp
 pub_number: 6
 authors: '<b>Qi Wang</b>, Anita L. Carson. (2026). <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7690201" target="_blank" class="pub-link-tag">Link</a>'
 venue_line: 'Soon to be submitted to <b>Management Science</b>.'
