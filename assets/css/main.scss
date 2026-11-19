@@ -473,3 +473,12 @@ a:hover,
 .jmp-section .pub-number { display: none !important; }
 
 .page__content .teaching-item p.teaching-meta { color: #0B5FA5 !important; }
+
+/* Job Market Paper heading marker */
+.page__content .jmp-heading::after {
+  content: "\2726";
+  color: #0B5FA5;
+  font-size: 0.8em;
+  margin-left: 0.45em;
+  vertical-align: 0.08em;
+}
