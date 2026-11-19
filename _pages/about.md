@@ -16,7 +16,7 @@ redirect_from:
 
 {% include base_path %}
 
-<h2 class="pub-category-title">Job Market Paper</h2>
+<h2 class="pub-category-title jmp-heading">Job Market Paper</h2>
 <div class="jmp-section">
 {% assign jmp = site.publications | where: "category", "jmp" | sort: "pub_number" %}
 {% for post in jmp %}
